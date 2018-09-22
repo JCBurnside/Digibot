@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiBot", "DigiBot\DigiBot.csproj", "{7951F95C-CC28-4BC5-82EC-B317199A152D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigiBot", "DigiBot\DigiBot.csproj", "{7951F95C-CC28-4BC5-82EC-B317199A152D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchConnection", "TwitchConnection\TwitchConnection.csproj", "{5BED48D2-E7DC-45EE-8B19-293FA5AFFA3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigiBotExtension", "DigitBotExtension\DigiBotExtension.csproj", "{3EC703E9-7F38-4119-81AA-5F860428E43A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigiBotExtension.Analyzer", "DigitBotExtension.Analyser\DigitBotExtension.Analyser\DigiBotExtension.Analyzer.csproj", "{BEDD43D3-D820-4FDA-8605-10E1646BEE74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiBotExtension.Analyzer.Tests", "DigiBotExtension.Analyzer.Tests\DigiBotExtension.Analyzer.Tests.csproj", "{7A04C237-D46B-402D-99D7-B204120DA457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{7951F95C-CC28-4BC5-82EC-B317199A152D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7951F95C-CC28-4BC5-82EC-B317199A152D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7951F95C-CC28-4BC5-82EC-B317199A152D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BED48D2-E7DC-45EE-8B19-293FA5AFFA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BED48D2-E7DC-45EE-8B19-293FA5AFFA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BED48D2-E7DC-45EE-8B19-293FA5AFFA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BED48D2-E7DC-45EE-8B19-293FA5AFFA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC703E9-7F38-4119-81AA-5F860428E43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC703E9-7F38-4119-81AA-5F860428E43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC703E9-7F38-4119-81AA-5F860428E43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC703E9-7F38-4119-81AA-5F860428E43A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDD43D3-D820-4FDA-8605-10E1646BEE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDD43D3-D820-4FDA-8605-10E1646BEE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDD43D3-D820-4FDA-8605-10E1646BEE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDD43D3-D820-4FDA-8605-10E1646BEE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A04C237-D46B-402D-99D7-B204120DA457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A04C237-D46B-402D-99D7-B204120DA457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A04C237-D46B-402D-99D7-B204120DA457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A04C237-D46B-402D-99D7-B204120DA457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
